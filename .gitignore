@@ -24,11 +24,9 @@ wheels/
 venv/
 ENV/
 env/
-.env
 
 # IDE
 .idea/
-.vscode/
 *.swp
 *.swo
 .DS_Store
@@ -50,5 +48,10 @@ log/
 .docker/
 
 # Project specific
-.env.local
 .env.*.local 
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
+branch_structure.json
+config.bat
+node_modules
